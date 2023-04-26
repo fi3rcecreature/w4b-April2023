@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #a50aba;
+    color: #fff;
+}
+
+a:visited {
+    color: green;
+}
+
+.main-nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+}
+
+header {
+    background-image: url(../img/GrungeTexture_Teal.png);
+    background-size: cover;
+}
+
+h1 {
+    text-shadow: 1px 1px 5px #b006a2;
+}
+
+.content {
+    float: left;
+    width: 60%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+aside {
+    float: left;
+    width: 40%;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 5px #000;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header, nav, .content, aside, footer {
+    border: 2px solid #a50aba;
+}

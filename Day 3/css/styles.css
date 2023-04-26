@@ -1,0 +1,11 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color:#0e96ad;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.secondary {
+    visibility: hidden;
+}
